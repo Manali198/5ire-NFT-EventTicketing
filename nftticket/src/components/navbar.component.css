@@ -1,0 +1,85 @@
+.navbar-container{
+    padding: 3px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+}
+.logo img{
+    height: 70px; 
+    cursor: pointer;
+    border-right: 1px solid #e2e2e2; 
+    padding-right: 20px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 10px;
+    margin-left: 40px;
+}
+.nav-links li{
+    display: block;
+    color: #11a0ff;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.nav-links li:hover{
+    color: #d52a2a;
+}
+
+.nav-links .active{
+    color: #0090ff;
+    background: #0090ff30;
+    border-radius: 20px;
+}
+
+.btn-connect{
+    padding: 12px 20px;
+    background: #0090ff;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-connect[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+
+.profile-section{
+    width: 100px;
+    padding: 10px 16px;
+    border-radius: 19px;
+    display: flex;
+    gap:10px;
+    color: #0090ff;
+    background: #96d8f4;
+    justify-content: center;
+    font-size: large;
+}
+
+.profile-section img{
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.profile-desc{
+    display:flex;
+    flex-direction: column;
+    font-size: .8em;
+    align-items: center;    
+}
